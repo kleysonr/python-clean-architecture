@@ -5,9 +5,10 @@ Python Clean Architecture Example
 pylint (baseado no guia de estilo PEP 8) - verifica somente em tempo de desenvolvimento
   - pylint asgi.py weather
 
-  - pylint --generate-rcfile > .pylintrc
-    max-line-lenght=120
-    min-public-methods=1
+  - pylint --generate-rcfile > .pylintrc  
+    max-line-lenght=120  
+    min-public-methods=1  
+    min-similarity-lines=10  
 
     Incluir logo no inicio depois do [MASTER]
       disable=
